@@ -18,10 +18,7 @@ namespace sample_openshift_dotnet_poc
     {
         private static void Main(string[] args)
         {
-            Scheduler();
-
-            Console.WriteLine("Press any key to close the application");
-            Console.ReadKey();
+            Scheduler();            
         }
 
         private static async Task Scheduler()
