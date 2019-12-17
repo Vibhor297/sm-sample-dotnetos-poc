@@ -16,7 +16,15 @@ namespace sample_openshift_dotnet_poc
 {
     public class Program
     {
-        private static async Task Main(string[] args)
+        private static void Main(string[] args)
+        {
+            Scheduler();
+
+            Console.WriteLine("Press any key to close the application");
+            Console.ReadKey();
+        }
+
+        private static async Task Scheduler()
         {
             try
             {
@@ -62,11 +70,7 @@ namespace sample_openshift_dotnet_poc
             {
                 Console.WriteLine(se);
             }
-
-            Console.WriteLine("Press any key to close the application");
-            Console.ReadKey();
         }
-
     }
 
 
