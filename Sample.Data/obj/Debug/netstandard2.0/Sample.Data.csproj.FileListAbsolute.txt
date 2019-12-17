@@ -1,0 +1,16 @@
+C:\Users\varora8\source\repos\Sample.Data\bin\Debug\netstandard2.0\Sample.Data.deps.json
+C:\Users\varora8\source\repos\Sample.Data\bin\Debug\netstandard2.0\Sample.Data.dll
+C:\Users\varora8\source\repos\Sample.Data\bin\Debug\netstandard2.0\Sample.Data.pdb
+C:\Users\varora8\source\repos\Sample.Data\obj\Debug\netstandard2.0\Sample.Data.AssemblyInfoInputs.cache
+C:\Users\varora8\source\repos\Sample.Data\obj\Debug\netstandard2.0\Sample.Data.AssemblyInfo.cs
+C:\Users\varora8\source\repos\Sample.Data\obj\Debug\netstandard2.0\Sample.Data.dll
+C:\Users\varora8\source\repos\Sample.Data\obj\Debug\netstandard2.0\Sample.Data.pdb
+C:\Users\varora8\source\repos\Sample.Data\obj\Debug\netstandard2.0\Sample.Data.csprojAssemblyReference.cache
+C:\Project\sm-sample-dotnetos-poc\Sample.Data\bin\Debug\netstandard2.0\Sample.Data.deps.json
+C:\Project\sm-sample-dotnetos-poc\Sample.Data\bin\Debug\netstandard2.0\Sample.Data.dll
+C:\Project\sm-sample-dotnetos-poc\Sample.Data\bin\Debug\netstandard2.0\Sample.Data.pdb
+C:\Project\sm-sample-dotnetos-poc\Sample.Data\obj\Debug\netstandard2.0\Sample.Data.csprojAssemblyReference.cache
+C:\Project\sm-sample-dotnetos-poc\Sample.Data\obj\Debug\netstandard2.0\Sample.Data.AssemblyInfoInputs.cache
+C:\Project\sm-sample-dotnetos-poc\Sample.Data\obj\Debug\netstandard2.0\Sample.Data.AssemblyInfo.cs
+C:\Project\sm-sample-dotnetos-poc\Sample.Data\obj\Debug\netstandard2.0\Sample.Data.dll
+C:\Project\sm-sample-dotnetos-poc\Sample.Data\obj\Debug\netstandard2.0\Sample.Data.pdb

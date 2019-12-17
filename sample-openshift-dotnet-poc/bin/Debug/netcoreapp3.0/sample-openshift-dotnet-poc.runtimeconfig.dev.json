@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\varora8\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\varora8\\.nuget\\packages"
+    ]
+  }
+}
