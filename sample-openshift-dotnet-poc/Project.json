@@ -1,0 +1,4 @@
+{
+  "DOTNET_STARTUP_PROJECT": "sample-openshift-dotnet-poc\\sample-openshift-dotnet-poc.csproj",
+  "DOTNET_PUBLISH":  true
+}
