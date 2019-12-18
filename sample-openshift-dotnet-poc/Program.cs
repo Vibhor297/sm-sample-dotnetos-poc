@@ -95,31 +95,49 @@ namespace sample_openshift_dotnet_poc
 
                 //Console.WriteLine(response.HttpStatusCode);
 
-                if (changedStudents.Count > 0)
+                //if (changedStudents.Count > 0)
+                //{
+                //    using (AmazonDynamoDBClient client = Common.GetDynamodbClient())
+                //    {
+                //        if (client != null)
+                //        {
+                //            TaskFactory taskFactory = new TaskFactory();
+                //            //get students from ern
+                //            foreach (var studentChanged in changedStudents)
+                //            {
+                //                var response = await taskFactory.StartNew(async () =>
+                //                {
+                //                    List<SepsdStudent> students = await studentService.LoadStudent(studentChanged);
+
+                //                    var studentJson = JsonConvert.SerializeObject(students);
+
+                //                    await Common.putItemAsync(client, studentChanged.StudentRecordNo.ToString(), "Student_Entity", studentJson);
+
+                //                });
+                //                Task.WaitAll(response);                                
+                //            }
+                //        }
+                //        else
+                //            Console.WriteLine("Error in creating AWS dynamo db session");
+                //    }
+                //}
+
+
+                using (AmazonDynamoDBClient client = Common.GetDynamodbClient())
                 {
-                    using (AmazonDynamoDBClient client = Common.GetDynamodbClient())
+                    TaskFactory taskFactory = new TaskFactory();
+                    //get students from ern
+
+                    var response = await taskFactory.StartNew(async () =>
                     {
-                        if (client != null)
-                        {
-                            TaskFactory taskFactory = new TaskFactory();
-                            //get students from ern
-                            foreach (var studentChanged in changedStudents)
-                            {
-                                var response = await taskFactory.StartNew(async () =>
-                                {
-                                    List<SepsdStudent> students = await studentService.LoadStudent(studentChanged);
+                        List<SepsdStudent> students = await studentService.LoadStudent(new SepsdChangedStudent());
 
-                                    var studentJson = JsonConvert.SerializeObject(students);
+                        var studentJson = JsonConvert.SerializeObject(students);
 
-                                    await Common.putItemAsync(client, studentChanged.StudentRecordNo.ToString(), "Student_Entity", studentJson);
+                        await Common.putItemAsync(client, "447571773", "Student_Entity", studentJson);
 
-                                });
-                                Task.WaitAll(response);                                
-                            }
-                        }
-                        else
-                            Console.WriteLine("Error in creating AWS dynamo db session");
-                    }
+                    });
+                    Task.WaitAll(response);
                 }
             }
         }
