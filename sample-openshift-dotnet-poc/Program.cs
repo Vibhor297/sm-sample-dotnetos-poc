@@ -82,9 +82,6 @@ namespace sample_openshift_dotnet_poc
         {
             using (StudentService studentService = new StudentService())
             {
-
-                Program program = new Program();
-
                 List<SepsdChangedStudent> changedStudents = await studentService.GetChangedStudents();
 
                 //List<SepsdStudent> students = await studentService.LoadStudent(new SepsdChangedStudent());
@@ -122,22 +119,28 @@ namespace sample_openshift_dotnet_poc
                 //    }
                 //}
 
-
-                using (AmazonDynamoDBClient client = Common.GetDynamodbClient())
+                try
                 {
-                    TaskFactory taskFactory = new TaskFactory();
-                    //get students from ern
-
-                    var response = await taskFactory.StartNew(async () =>
+                    using (AmazonDynamoDBClient client = Common.GetDynamodbClient())
                     {
-                        List<SepsdStudent> students = await studentService.LoadStudent(new SepsdChangedStudent());
+                        TaskFactory taskFactory = new TaskFactory();
+                        //get students from ern
 
-                        var studentJson = JsonConvert.SerializeObject(students);
+                        var response = await taskFactory.StartNew(async () =>
+                        {
+                            List<SepsdStudent> students = await studentService.LoadStudent(new SepsdChangedStudent());
 
-                        await Common.putItemAsync(client, "447571773", "Student_Entity", studentJson);
+                            var studentJson = JsonConvert.SerializeObject(students);
 
-                    });
-                    Task.WaitAll(response);
+                            await Common.putItemAsync(client, "447571773", "Student_Entity", studentJson);
+
+                        });
+                        Task.WaitAll(response);
+                    }
+                }
+                catch(Exception ex)
+                {
+                    Console.WriteLine(ex);
                 }
             }
         }

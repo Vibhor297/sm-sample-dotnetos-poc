@@ -27,7 +27,7 @@ namespace Sample.Services
             }
             catch(Exception ex)
             {
-                Console.WriteLine(ex);
+                throw ex;
             }
             return studentChangeds;
         }
@@ -46,7 +46,7 @@ namespace Sample.Services
             }
             catch(Exception ex)
             {
-
+                throw ex;
             }
             return students;
         }
