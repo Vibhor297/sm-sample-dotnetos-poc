@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Project\\sm-sample-dotnetos-poc\\Sample.Data\\Sample.Data.csproj",
+      "projectUniqueName": "C:\\Project\\sm-sample-dotnetos-poc-github\\Sample.Data\\Sample.Data.csproj",
       "projectName": "Sample.Data",
-      "projectPath": "C:\\Project\\sm-sample-dotnetos-poc\\Sample.Data\\Sample.Data.csproj",
+      "projectPath": "C:\\Project\\sm-sample-dotnetos-poc-github\\Sample.Data\\Sample.Data.csproj",
       "packagesPath": "C:\\Users\\varora8\\.nuget\\packages\\",
-      "outputPath": "C:\\Project\\sm-sample-dotnetos-poc\\Sample.Data\\obj\\",
+      "outputPath": "C:\\Project\\sm-sample-dotnetos-poc-github\\Sample.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\varora8\\AppData\\Roaming\\NuGet\\NuGet.Config",

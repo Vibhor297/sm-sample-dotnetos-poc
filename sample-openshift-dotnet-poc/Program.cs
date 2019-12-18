@@ -18,7 +18,12 @@ namespace sample_openshift_dotnet_poc
     {
         private static void Main(string[] args)
         {
-            Scheduler();            
+            AsyncSchedule();
+        }
+
+        private static async void AsyncSchedule()
+        {
+            await Scheduler();
         }
 
         private static async Task Scheduler()

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Project\\sm-sample-dotnetos-poc\\sample-openshift-dotnet-poc\\sample-openshift-dotnet-poc.csproj": {}
+    "C:\\Project\\sm-sample-dotnetos-poc-github\\sample-openshift-dotnet-poc\\sample-openshift-dotnet-poc.csproj": {}
   },
   "projects": {
-    "C:\\Project\\sm-sample-dotnetos-poc\\sample-openshift-dotnet-poc\\sample-openshift-dotnet-poc.csproj": {
+    "C:\\Project\\sm-sample-dotnetos-poc-github\\sample-openshift-dotnet-poc\\sample-openshift-dotnet-poc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Project\\sm-sample-dotnetos-poc\\sample-openshift-dotnet-poc\\sample-openshift-dotnet-poc.csproj",
+        "projectUniqueName": "C:\\Project\\sm-sample-dotnetos-poc-github\\sample-openshift-dotnet-poc\\sample-openshift-dotnet-poc.csproj",
         "projectName": "sample-openshift-dotnet-poc",
-        "projectPath": "C:\\Project\\sm-sample-dotnetos-poc\\sample-openshift-dotnet-poc\\sample-openshift-dotnet-poc.csproj",
+        "projectPath": "C:\\Project\\sm-sample-dotnetos-poc-github\\sample-openshift-dotnet-poc\\sample-openshift-dotnet-poc.csproj",
         "packagesPath": "C:\\Users\\varora8\\.nuget\\packages\\",
-        "outputPath": "C:\\Project\\sm-sample-dotnetos-poc\\sample-openshift-dotnet-poc\\obj\\",
+        "outputPath": "C:\\Project\\sm-sample-dotnetos-poc-github\\sample-openshift-dotnet-poc\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\varora8\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,8 +27,8 @@
         "frameworks": {
           "netcoreapp2.1": {
             "projectReferences": {
-              "C:\\Project\\sm-sample-dotnetos-poc\\Sample.Services\\Sample.Services.csproj": {
-                "projectPath": "C:\\Project\\sm-sample-dotnetos-poc\\Sample.Services\\Sample.Services.csproj"
+              "C:\\Project\\sm-sample-dotnetos-poc-github\\Sample.Services\\Sample.Services.csproj": {
+                "projectPath": "C:\\Project\\sm-sample-dotnetos-poc-github\\Sample.Services\\Sample.Services.csproj"
               }
             }
           }
@@ -95,14 +95,14 @@
         }
       }
     },
-    "C:\\Project\\sm-sample-dotnetos-poc\\Sample.Data\\Sample.Data.csproj": {
+    "C:\\Project\\sm-sample-dotnetos-poc-github\\Sample.Data\\Sample.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Project\\sm-sample-dotnetos-poc\\Sample.Data\\Sample.Data.csproj",
+        "projectUniqueName": "C:\\Project\\sm-sample-dotnetos-poc-github\\Sample.Data\\Sample.Data.csproj",
         "projectName": "Sample.Data",
-        "projectPath": "C:\\Project\\sm-sample-dotnetos-poc\\Sample.Data\\Sample.Data.csproj",
+        "projectPath": "C:\\Project\\sm-sample-dotnetos-poc-github\\Sample.Data\\Sample.Data.csproj",
         "packagesPath": "C:\\Users\\varora8\\.nuget\\packages\\",
-        "outputPath": "C:\\Project\\sm-sample-dotnetos-poc\\Sample.Data\\obj\\",
+        "outputPath": "C:\\Project\\sm-sample-dotnetos-poc-github\\Sample.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\varora8\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -150,14 +150,14 @@
         }
       }
     },
-    "C:\\Project\\sm-sample-dotnetos-poc\\Sample.Repository\\Sample.Repository.csproj": {
+    "C:\\Project\\sm-sample-dotnetos-poc-github\\Sample.Repository\\Sample.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Project\\sm-sample-dotnetos-poc\\Sample.Repository\\Sample.Repository.csproj",
+        "projectUniqueName": "C:\\Project\\sm-sample-dotnetos-poc-github\\Sample.Repository\\Sample.Repository.csproj",
         "projectName": "Sample.Repository",
-        "projectPath": "C:\\Project\\sm-sample-dotnetos-poc\\Sample.Repository\\Sample.Repository.csproj",
+        "projectPath": "C:\\Project\\sm-sample-dotnetos-poc-github\\Sample.Repository\\Sample.Repository.csproj",
         "packagesPath": "C:\\Users\\varora8\\.nuget\\packages\\",
-        "outputPath": "C:\\Project\\sm-sample-dotnetos-poc\\Sample.Repository\\obj\\",
+        "outputPath": "C:\\Project\\sm-sample-dotnetos-poc-github\\Sample.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\varora8\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -173,8 +173,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Project\\sm-sample-dotnetos-poc\\Sample.Data\\Sample.Data.csproj": {
-                "projectPath": "C:\\Project\\sm-sample-dotnetos-poc\\Sample.Data\\Sample.Data.csproj"
+              "C:\\Project\\sm-sample-dotnetos-poc-github\\Sample.Data\\Sample.Data.csproj": {
+                "projectPath": "C:\\Project\\sm-sample-dotnetos-poc-github\\Sample.Data\\Sample.Data.csproj"
               }
             }
           }
@@ -213,14 +213,14 @@
         }
       }
     },
-    "C:\\Project\\sm-sample-dotnetos-poc\\Sample.Services\\Sample.Services.csproj": {
+    "C:\\Project\\sm-sample-dotnetos-poc-github\\Sample.Services\\Sample.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Project\\sm-sample-dotnetos-poc\\Sample.Services\\Sample.Services.csproj",
+        "projectUniqueName": "C:\\Project\\sm-sample-dotnetos-poc-github\\Sample.Services\\Sample.Services.csproj",
         "projectName": "Sample.Services",
-        "projectPath": "C:\\Project\\sm-sample-dotnetos-poc\\Sample.Services\\Sample.Services.csproj",
+        "projectPath": "C:\\Project\\sm-sample-dotnetos-poc-github\\Sample.Services\\Sample.Services.csproj",
         "packagesPath": "C:\\Users\\varora8\\.nuget\\packages\\",
-        "outputPath": "C:\\Project\\sm-sample-dotnetos-poc\\Sample.Services\\obj\\",
+        "outputPath": "C:\\Project\\sm-sample-dotnetos-poc-github\\Sample.Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\varora8\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -236,11 +236,11 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Project\\sm-sample-dotnetos-poc\\Sample.Data\\Sample.Data.csproj": {
-                "projectPath": "C:\\Project\\sm-sample-dotnetos-poc\\Sample.Data\\Sample.Data.csproj"
+              "C:\\Project\\sm-sample-dotnetos-poc-github\\Sample.Data\\Sample.Data.csproj": {
+                "projectPath": "C:\\Project\\sm-sample-dotnetos-poc-github\\Sample.Data\\Sample.Data.csproj"
               },
-              "C:\\Project\\sm-sample-dotnetos-poc\\Sample.Repository\\Sample.Repository.csproj": {
-                "projectPath": "C:\\Project\\sm-sample-dotnetos-poc\\Sample.Repository\\Sample.Repository.csproj"
+              "C:\\Project\\sm-sample-dotnetos-poc-github\\Sample.Repository\\Sample.Repository.csproj": {
+                "projectPath": "C:\\Project\\sm-sample-dotnetos-poc-github\\Sample.Repository\\Sample.Repository.csproj"
               }
             }
           }

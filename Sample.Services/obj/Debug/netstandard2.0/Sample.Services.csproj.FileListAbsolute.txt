@@ -26,3 +26,17 @@ C:\Project\sm-sample-dotnetos-poc\Sample.Services\obj\Debug\netstandard2.0\Sampl
 C:\Project\sm-sample-dotnetos-poc\Sample.Services\obj\Debug\netstandard2.0\Sample.Services.csproj.CopyComplete
 C:\Project\sm-sample-dotnetos-poc\Sample.Services\obj\Debug\netstandard2.0\Sample.Services.dll
 C:\Project\sm-sample-dotnetos-poc\Sample.Services\obj\Debug\netstandard2.0\Sample.Services.pdb
+C:\Project\sm-sample-dotnetos-poc-github\Sample.Services\bin\Debug\netstandard2.0\Sample.Services.deps.json
+C:\Project\sm-sample-dotnetos-poc-github\Sample.Services\bin\Debug\netstandard2.0\Sample.Services.dll
+C:\Project\sm-sample-dotnetos-poc-github\Sample.Services\bin\Debug\netstandard2.0\Sample.Services.pdb
+C:\Project\sm-sample-dotnetos-poc-github\Sample.Services\bin\Debug\netstandard2.0\Sample.Data.dll
+C:\Project\sm-sample-dotnetos-poc-github\Sample.Services\bin\Debug\netstandard2.0\Sample.Repository.dll
+C:\Project\sm-sample-dotnetos-poc-github\Sample.Services\bin\Debug\netstandard2.0\Sample.Data.pdb
+C:\Project\sm-sample-dotnetos-poc-github\Sample.Services\bin\Debug\netstandard2.0\Sample.Repository.pdb
+C:\Project\sm-sample-dotnetos-poc-github\Sample.Services\bin\Debug\netstandard2.0\Sample.Repository.dll.config
+C:\Project\sm-sample-dotnetos-poc-github\Sample.Services\obj\Debug\netstandard2.0\Sample.Services.csprojAssemblyReference.cache
+C:\Project\sm-sample-dotnetos-poc-github\Sample.Services\obj\Debug\netstandard2.0\Sample.Services.AssemblyInfoInputs.cache
+C:\Project\sm-sample-dotnetos-poc-github\Sample.Services\obj\Debug\netstandard2.0\Sample.Services.AssemblyInfo.cs
+C:\Project\sm-sample-dotnetos-poc-github\Sample.Services\obj\Debug\netstandard2.0\Sample.Services.csproj.CopyComplete
+C:\Project\sm-sample-dotnetos-poc-github\Sample.Services\obj\Debug\netstandard2.0\Sample.Services.dll
+C:\Project\sm-sample-dotnetos-poc-github\Sample.Services\obj\Debug\netstandard2.0\Sample.Services.pdb

@@ -22,3 +22,15 @@ C:\Project\sm-sample-dotnetos-poc\Sample.Repository\obj\Debug\netstandard2.0\Sam
 C:\Project\sm-sample-dotnetos-poc\Sample.Repository\obj\Debug\netstandard2.0\Sample.Repository.csproj.CopyComplete
 C:\Project\sm-sample-dotnetos-poc\Sample.Repository\obj\Debug\netstandard2.0\Sample.Repository.dll
 C:\Project\sm-sample-dotnetos-poc\Sample.Repository\obj\Debug\netstandard2.0\Sample.Repository.pdb
+C:\Project\sm-sample-dotnetos-poc-github\Sample.Repository\bin\Debug\netstandard2.0\Sample.Repository.dll.config
+C:\Project\sm-sample-dotnetos-poc-github\Sample.Repository\bin\Debug\netstandard2.0\Sample.Repository.deps.json
+C:\Project\sm-sample-dotnetos-poc-github\Sample.Repository\bin\Debug\netstandard2.0\Sample.Repository.dll
+C:\Project\sm-sample-dotnetos-poc-github\Sample.Repository\bin\Debug\netstandard2.0\Sample.Repository.pdb
+C:\Project\sm-sample-dotnetos-poc-github\Sample.Repository\bin\Debug\netstandard2.0\Sample.Data.dll
+C:\Project\sm-sample-dotnetos-poc-github\Sample.Repository\bin\Debug\netstandard2.0\Sample.Data.pdb
+C:\Project\sm-sample-dotnetos-poc-github\Sample.Repository\obj\Debug\netstandard2.0\Sample.Repository.csprojAssemblyReference.cache
+C:\Project\sm-sample-dotnetos-poc-github\Sample.Repository\obj\Debug\netstandard2.0\Sample.Repository.AssemblyInfoInputs.cache
+C:\Project\sm-sample-dotnetos-poc-github\Sample.Repository\obj\Debug\netstandard2.0\Sample.Repository.AssemblyInfo.cs
+C:\Project\sm-sample-dotnetos-poc-github\Sample.Repository\obj\Debug\netstandard2.0\Sample.Repository.csproj.CopyComplete
+C:\Project\sm-sample-dotnetos-poc-github\Sample.Repository\obj\Debug\netstandard2.0\Sample.Repository.dll
+C:\Project\sm-sample-dotnetos-poc-github\Sample.Repository\obj\Debug\netstandard2.0\Sample.Repository.pdb

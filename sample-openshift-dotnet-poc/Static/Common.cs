@@ -17,18 +17,23 @@ namespace sample_openshift_dotnet_poc.Static
         public static AmazonDynamoDBClient GetDynamodbClient()
         {
             AmazonDynamoDBClient client = null;
-            //var builder = new ConfigurationBuilder()
-            //                .SetBasePath(Directory.GetCurrentDirectory())
-            //                .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true);
+            var builder = new ConfigurationBuilder()
+                            .SetBasePath(Directory.GetCurrentDirectory())
+                            .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true);
 
-            var chain = new CredentialProfileStoreChain();
-            AWSCredentials awsCredentials;
-            if (chain.TryGetAWSCredentials("saml", out awsCredentials))
-            {
-                var credentials = awsCredentials.GetCredentials();
+            var config = builder.Build();
 
-                client = new AmazonDynamoDBClient(credentials.AccessKey, credentials.SecretKey, credentials.Token, Amazon.RegionEndpoint.APSoutheast2);                
-            }
+
+            //var chain = new CredentialProfileStoreChain();
+            //AWSCredentials awsCredentials;
+            //if (chain.TryGetAWSCredentials("saml", out awsCredentials))
+            //{
+            //    var credentials = awsCredentials.GetCredentials();
+
+            //    client = new AmazonDynamoDBClient(credentials.AccessKey, credentials.SecretKey, credentials.Token, Amazon.RegionEndpoint.APSoutheast2);                
+            //}
+
+            client = new AmazonDynamoDBClient(config.GetSection("AWS")["AccessKey"], config.GetSection("AWS")["SecretKey"], config.GetSection("AWS")["Token"], Amazon.RegionEndpoint.APSoutheast2);
 
             return client;
         }

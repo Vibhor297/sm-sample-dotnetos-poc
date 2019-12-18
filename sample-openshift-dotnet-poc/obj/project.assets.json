@@ -6370,11 +6370,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Project\\sm-sample-dotnetos-poc\\sample-openshift-dotnet-poc\\sample-openshift-dotnet-poc.csproj",
+      "projectUniqueName": "C:\\Project\\sm-sample-dotnetos-poc-github\\sample-openshift-dotnet-poc\\sample-openshift-dotnet-poc.csproj",
       "projectName": "sample-openshift-dotnet-poc",
-      "projectPath": "C:\\Project\\sm-sample-dotnetos-poc\\sample-openshift-dotnet-poc\\sample-openshift-dotnet-poc.csproj",
+      "projectPath": "C:\\Project\\sm-sample-dotnetos-poc-github\\sample-openshift-dotnet-poc\\sample-openshift-dotnet-poc.csproj",
       "packagesPath": "C:\\Users\\varora8\\.nuget\\packages\\",
-      "outputPath": "C:\\Project\\sm-sample-dotnetos-poc\\sample-openshift-dotnet-poc\\obj\\",
+      "outputPath": "C:\\Project\\sm-sample-dotnetos-poc-github\\sample-openshift-dotnet-poc\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\varora8\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6390,8 +6390,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Project\\sm-sample-dotnetos-poc\\Sample.Services\\Sample.Services.csproj": {
-              "projectPath": "C:\\Project\\sm-sample-dotnetos-poc\\Sample.Services\\Sample.Services.csproj"
+            "C:\\Project\\sm-sample-dotnetos-poc-github\\Sample.Services\\Sample.Services.csproj": {
+              "projectPath": "C:\\Project\\sm-sample-dotnetos-poc-github\\Sample.Services\\Sample.Services.csproj"
             }
           }
         }

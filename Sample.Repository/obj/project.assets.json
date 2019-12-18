@@ -2693,11 +2693,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Project\\sm-sample-dotnetos-poc\\Sample.Repository\\Sample.Repository.csproj",
+      "projectUniqueName": "C:\\Project\\sm-sample-dotnetos-poc-github\\Sample.Repository\\Sample.Repository.csproj",
       "projectName": "Sample.Repository",
-      "projectPath": "C:\\Project\\sm-sample-dotnetos-poc\\Sample.Repository\\Sample.Repository.csproj",
+      "projectPath": "C:\\Project\\sm-sample-dotnetos-poc-github\\Sample.Repository\\Sample.Repository.csproj",
       "packagesPath": "C:\\Users\\varora8\\.nuget\\packages\\",
-      "outputPath": "C:\\Project\\sm-sample-dotnetos-poc\\Sample.Repository\\obj\\",
+      "outputPath": "C:\\Project\\sm-sample-dotnetos-poc-github\\Sample.Repository\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\varora8\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2713,8 +2713,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\Project\\sm-sample-dotnetos-poc\\Sample.Data\\Sample.Data.csproj": {
-              "projectPath": "C:\\Project\\sm-sample-dotnetos-poc\\Sample.Data\\Sample.Data.csproj"
+            "C:\\Project\\sm-sample-dotnetos-poc-github\\Sample.Data\\Sample.Data.csproj": {
+              "projectPath": "C:\\Project\\sm-sample-dotnetos-poc-github\\Sample.Data\\Sample.Data.csproj"
             }
           }
         }
