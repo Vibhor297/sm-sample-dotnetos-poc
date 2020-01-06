@@ -1,15 +1,13 @@
 ﻿using Amazon.DynamoDBv2;
-using Hangfire;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.Configuration;
 using Newtonsoft.Json;
-using Quartz;
-using Quartz.Impl;
 using Sample.Repository.Models;
 using Sample.Services;
 using sample_openshift_dotnet_poc.Static;
 using System;
 using System.Collections.Generic;
-using System.Collections.Specialized;
-using System.Threading;
+using System.IO;
 using System.Threading.Tasks;
 
 namespace sample_openshift_dotnet_poc
@@ -18,8 +16,21 @@ namespace sample_openshift_dotnet_poc
     {
         private static void Main(string[] args)
         {
-            AsyncSchedule();
+            var config = new ConfigurationBuilder().AddEnvironmentVariables("")
+                .Build();
+            // 2nd line added
 
+            var url = config["ASPNETCORE_URLS"] ?? "http://*:8080";
+            // 3rd line added
+
+            var host = new WebHostBuilder()
+            .UseKestrel()
+            .UseContentRoot(Directory.GetCurrentDirectory())
+            .UseIISIntegration()            
+            .UseUrls(url) // 4th line added
+            .Build();
+
+            AsyncSchedule();
         }
 
         private static async void AsyncSchedule()
