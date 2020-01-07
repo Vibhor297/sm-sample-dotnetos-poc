@@ -18,7 +18,6 @@ namespace sample_openshift_dotnet_poc
         {
             AsyncSchedule();
 
-
             var config = new ConfigurationBuilder().AddEnvironmentVariables("")
                 .Build();
             // 2nd line added
@@ -34,9 +33,7 @@ namespace sample_openshift_dotnet_poc
             .UseUrls(url) // 4th line added
             .Build();
 
-            host.Run();
-
-            
+            host.Run();            
         }
 
         private static async void AsyncSchedule()
