@@ -18,22 +18,22 @@ namespace sample_openshift_dotnet_poc
         {
             AsyncSchedule();
 
-            var config = new ConfigurationBuilder().AddEnvironmentVariables("")
-                .Build();
-            // 2nd line added
+            //var config = new ConfigurationBuilder().AddEnvironmentVariables("")
+            //    .Build();
+            //// 2nd line added
 
-            var url = config["ASPNETCORE_URLS"] ?? "http://localhost:8080";
-            // 3rd line added
+            //var url = config["ASPNETCORE_URLS"] ?? "http://localhost:8080";
+            //// 3rd line added
 
-            var host = new WebHostBuilder()
-            .UseKestrel()
-            .UseContentRoot(Directory.GetCurrentDirectory())
-            .UseIISIntegration()
-            .UseStartup<Startup>()
-            .UseUrls(url) // 4th line added
-            .Build();
+            //var host = new WebHostBuilder()
+            //.UseKestrel()
+            //.UseContentRoot(Directory.GetCurrentDirectory())
+            //.UseIISIntegration()
+            //.UseStartup<Startup>()
+            //.UseUrls(url) // 4th line added
+            //.Build();
 
-            host.Run();
+            //host.Run();
             
         }
 
