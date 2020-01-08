@@ -8,6 +8,7 @@ using sample_openshift_dotnet_poc.Static;
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace sample_openshift_dotnet_poc
@@ -22,7 +23,7 @@ namespace sample_openshift_dotnet_poc
             //    .Build();
             //// 2nd line added
 
-            //var url = config["ASPNETCORE_URLS"] ?? "http://localhost:8080";
+            //var url = config["ASPNETCORE_URLS"] ?? "";
             //// 3rd line added
 
             //var host = new WebHostBuilder()
@@ -33,8 +34,8 @@ namespace sample_openshift_dotnet_poc
             //.UseUrls(url) // 4th line added
             //.Build();
 
-            //host.Run();
-            
+            //host.Run();           
+            Thread.Sleep(TimeSpan.FromSeconds(60));
         }
 
         private static async void AsyncSchedule()
