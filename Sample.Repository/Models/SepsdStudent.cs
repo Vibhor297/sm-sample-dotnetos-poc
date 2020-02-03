@@ -77,8 +77,7 @@ namespace Sample.Repository.Models
         public string PscTypeCodeSrd { get; set; }
         public string PscTypeNm { get; set; }
         public string PscWhoursCodeSrd { get; set; }
-        public string PscWhoursNm { get; set; }
-        public string InternationalInd { get; set; }
+        public string PscWhoursNm { get; set; }        
         public string StudentGuid { get; set; }
         public string StudentStatusCodeSrd { get; set; }
         public string StudentStatusNm { get; set; }
