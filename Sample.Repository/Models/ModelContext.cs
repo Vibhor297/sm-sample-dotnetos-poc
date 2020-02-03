@@ -10786,12 +10786,7 @@ namespace Sample.Repository.Models
                 entity.Property(e => e.GenderNm)
                     .HasColumnName("GENDER_NM")
                     .HasColumnType("VARCHAR2(30)")
-                    .ValueGeneratedNever();
-
-                entity.Property(e => e.InternationalInd)
-                    .HasColumnName("INTERNATIONAL_IND")
-                    .HasColumnType("VARCHAR2(1)")
-                    .ValueGeneratedNever();
+                    .ValueGeneratedNever();               
 
                 entity.Property(e => e.IspAccessInd)
                     .HasColumnName("ISP_ACCESS_IND")
